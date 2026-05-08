@@ -15,8 +15,11 @@ tags:
 - FinOps
 - Cost Management
 - FOCUS
-description: FOCUS-aligned FinOps placeholder for Udio. Pipeline will replace with real billing details.
-notes: Initial scaffold — billing model has not yet been reconciled.
+description: >-
+  Udio does not currently provide a public API; FinOps for Udio is limited to consumer
+  subscription accounting. No API charges to allocate or optimize until Udio publishes a
+  developer API.
+notes: Re-evaluate during the next pipeline run for any API release.
 sources:
 - https://www.udio.com/
 - https://focus.finops.org/focus-specification/v1-3/
@@ -29,38 +32,35 @@ alignedWith:
 publisherName: Udio
 serviceCategory: AI
 billingModel:
-  pricingCategory: To Be Reconciled
+  pricingCategory: Consumer Subscription Only
   billingFrequency: Monthly
   billingCurrency: USD
   chargeCategories:
-  - Usage
   - Purchase
-  - Adjustment
 focusColumns:
-  ServiceName: Udio
+  ServiceName: Udio Consumer App
   ServiceCategory: AI
   ProviderName: Udio
   PublisherName: Udio
   InvoiceIssuerName: Udio
   BillingCurrency: USD
-  ChargeCategory: Usage
+  ChargeCategory: Purchase
 meters:
-- name: api_usage
-  description: Catch-all meter pending reconciliation.
-  unit: varies
-  aggregation: sum
+- name: subscription_seats
+  description: Consumer Udio subscription seats.
+  unit: seat
+  aggregation: max
   dimensions:
   - account
-  - resource
 principles:
 - name: Visibility
-  description: Pull provider invoices or usage exports until a self-serve usage feed is documented.
+  description: Track consumer subscription invoices.
 - name: Allocation
-  description: Tag invoice line items to consuming business units in your FinOps store.
+  description: Allocate consumer seats to creator workflows; not applicable to API workloads.
 - name: Optimization
-  description: Levers depend on the provider's billing model; review at renewal once reconciled.
+  description: Right-size subscription tier per active user.
 - name: Accountability
-  description: Assign a contract owner to review billing against negotiated terms.
+  description: Assign a subscription owner per team.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

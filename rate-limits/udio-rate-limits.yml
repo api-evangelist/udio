@@ -15,21 +15,23 @@ tags:
 - Rate Limiting
 - Quotas
 - Throttling
-description: Placeholder rate-limit artifact for Udio. Replace with real limits once researched.
-notes: Initial scaffold — limits have not yet been reconciled.
+description: >-
+  Udio does not publish API rate limits because it does not offer a public API. Consumer
+  generation quotas are governed by the in-app subscription tier.
+notes: Reassess if Udio publishes a public API.
 sources:
 - https://www.udio.com/
 responseCodes:
   throttled: 429
 limits:
-- name: Default
+- name: Public API
   scope: account
-  metric: varies
-  limit: see provider documentation
-  notes: Pending reconciliation.
+  metric: api
+  limit: 0
+  notes: Udio does not currently expose a public API.
 policies:
-- name: Backoff Strategy
-  description: Clients should implement exponential backoff with jitter and honor any Retry-After header.
+- name: Future Re-Evaluation
+  description: Re-research Udio for API availability on the next pipeline run.
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com

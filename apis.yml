@@ -3,7 +3,10 @@ url: https://raw.githubusercontent.com/api-evangelist/udio/refs/heads/main/apis.
 name: Udio
 x-type: company
 description: >-
-  Udio is an AI music generation platform creating songs with vocals, instrumentation, and remixing capabilities.
+  Udio is an AI music generation platform creating songs with vocals, instrumentation, and
+  remixing capabilities. As of May 2026 Udio does NOT publish a public developer API.
+  Production integrations are limited to consumer web/app surfaces; programmatic access is
+  not supported.
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - AI

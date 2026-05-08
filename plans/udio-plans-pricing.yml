@@ -13,29 +13,31 @@ tags:
 - Generative
 - Songs
 - Plans
-description: Placeholder plans/pricing artifact for Udio. Replace with real published pricing once
-  the pipeline researches the provider's plans page.
-notes: Initial scaffold — plans/pricing have not yet been reconciled.
+description: >-
+  Udio does not currently publish a public developer API. Pricing tiers (Free / Standard /
+  Pro) are consumer subscription plans for the Udio web app and do not provide programmatic
+  access. No API rate sheet exists.
+notes: No public Udio API as of May 2026. Consumer subscription plans are web-app only.
 sources:
 - https://www.udio.com/
 plans:
-- id: udio-default
-  name: To Be Reconciled
+- id: udio-no-api
+  name: No Public API
   type: enterprise
-  description: Initial scaffold; replace with provider plan tiers once pricing is reconciled.
+  description: Udio does not provide a sanctioned public API. Consumer subscriptions are not API access.
   entries:
   - label: API Access
     name: api_access
     type: flat
-    metric: varies
-    limit: -1
+    metric: api
+    limit: 0
     timeFrame: usage
     geo: global
     unit: 1
-    price: see https://www.udio.com/
+    price: not available
     userMultiplied: false
   elements:
-  - name: Pending Reconciliation
+  - name: Pending public API release
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
