@@ -1,7 +1,7 @@
 aid: udio
 url: https://raw.githubusercontent.com/api-evangelist/udio/refs/heads/main/apis.yml
 name: Udio
-x-type: company
+kind: company
 description: >-
   Udio is an AI music generation platform creating songs with vocals, instrumentation, and
   remixing capabilities. As of May 2026 Udio does NOT publish a public developer API.
