@@ -19,10 +19,14 @@ modified: '2026-05-08'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/udio-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/udiomusic
   - type: Website
     url: https://www.udio.com/
+  - url: https://www.udio.com/blog
+    type: Blog
   - type: Plans
     url: plans/udio-plans-pricing.yml
   - type: RateLimits
