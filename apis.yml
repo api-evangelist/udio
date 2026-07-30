@@ -7,7 +7,19 @@ description: >-
   remixing capabilities. As of May 2026 Udio does NOT publish a public developer API.
   Production integrations are limited to consumer web/app surfaces; programmatic access is
   not supported.
-image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/udio.png
 tags:
   - AI
   - Music Generation
