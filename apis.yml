@@ -21,6 +21,12 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/udio.png
 tags:
+  - Artificial Intelligence
+  - Music Generation
+  - Audio
+  - Generative
+  - Songs
+tags_raw:
   - AI
   - Music Generation
   - Audio
