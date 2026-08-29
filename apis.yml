@@ -7,6 +7,17 @@ description: >-
   remixing capabilities. As of May 2026 Udio does NOT publish a public developer API.
   Production integrations are limited to consumer web/app surfaces; programmatic access is
   not supported.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
