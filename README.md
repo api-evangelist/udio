@@ -1,4 +1,4 @@
-# Udio (udio)
+# Udio
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,30 +64,98 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Udio is an AI music generation platform creating songs with vocals, instrumentation, and remixing capabilities. As of May 2026 Udio does NOT publish a public developer API. Production integrations are limited to consumer web/app surfaces.
+Udio is an AI music generation platform creating songs with vocals, instrumentation, and remixing capabilities. As of May 2026 Udio does NOT publish a public developer API. Production integrations are limited to consumer web/app surfaces; programmatic access is not supported.
 
-**APIs.json:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/udio/refs/heads/main/apis.yml)
+**Areas:** Artificial Intelligence · Music Generation · Audio · Generative · Songs · Music
 
-## Type
-- **x-type:** company
+## Udio on APIs.io
 
-## Tags
-- AI, Music Generation, Audio, Generative, Songs
+Everything profiled for Udio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/udio/](https://apis.io/providers/udio/)** — or go straight to one of the APIs or properties below.
 
-## APIs
-None published. Re-evaluate during the next pipeline run.
+### Published properties
 
-## Common Properties
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Udio Domain Security](https://apis.io/security/udio/udio-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Udio Plans Pricing](https://apis.io/plans/udio/udio-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Udio Rate Limits](https://apis.io/rate-limits/udio/udio-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Udio Finops](https://apis.io/finops/udio/udio-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.udio.com/)
-- [Plans](plans/udio-plans-pricing.yml) — not reconciled (no public API)
-- [RateLimits](rate-limits/udio-rate-limits.yml) — not reconciled
-- [FinOps](finops/udio-finops.yml) — not reconciled
+- [Blog](https://www.udio.com/blog)
 
-## Pricing Snapshot
-- No public Udio API
-- Consumer subscriptions (Free/Standard/Pro) are web-app only
+## API Evangelist rating
 
-## Maintainers
-**FN:** Kin Lane
+**Kin Score 5.2** — minimal · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 5.3 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.5** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/udio/](https://apis.io/providers/udio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Udio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/udio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
